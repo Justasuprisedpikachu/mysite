@@ -1,0 +1,343 @@
+body { 
+    animation: fadeBackground 20s linear infinite; 
+    cursor: url('cursor.png') 16 16, auto !important;
+    height: 3500px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;    
+    cursor: url('cursor.png') 16 16, auto !important;
+    scroll-behavior: smooth;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 900px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+#Home-box {
+    background-color: #E08A8F;
+}
+
+.menu-box {
+    padding-right: 5px;
+    padding-left: 5px; 
+}
+.menu-box:hover {
+    background-color: #F28C96 ;
+}
+
+.top-box {
+    width:100%; 
+    font-size: 20px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #F7B2B7;
+    display: flex; 
+    align-items: end;
+    justify-content: center; 
+    position: fixed; 
+    margin-top: -130px;
+    z-index: 1;
+}
+
+.profile-box {
+    width: 1300px; 
+    font-size: 30px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: 130px auto; 
+    background-color: #f0e8a0;
+    color: #5C4033;
+    border-radius: 50px;
+    scroll-margin-top: 130px;
+}
+
+.box {
+    width: 1000px; 
+    font-size: 30px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: 130px auto; 
+    background-color: #FFD1DC;
+    color: #FFE5B4;
+    border-radius: 50px;
+    scroll-margin-top: 130px; 
+    margin-top: 50px;
+    padding-top: 20px; 
+
+}
+
+
+.box {
+    width: 1000px; 
+    font-size: 30px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: 130px auto; 
+    background-color: #FFD1DC;
+    color: #FFE5B4;
+    border-radius: 50px;
+    scroll-margin-top: 130px; 
+    margin-top: 50px;
+    padding-top: 20px; 
+
+
+    
+}
+
+#Links {
+    margin-top: 75px;
+    scroll-margin-top: 125px;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    width: 1000px; 
+    font-size: 30px;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 130px auto; 
+    background-color: #FFD1DC;
+    color: #FFE5B4;
+    border-radius: 50px;
+    scroll-margin-top: 130px; 
+    margin-top: 50px;
+    padding-top: 20px; 
+}
+
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+.box h1 {
+    font-family: Georgia, serif; 
+    font-weight: bold;
+}
+
+.spin {
+    animation: spin 0.2s linear infinite;
+}
+
+.moving {
+    animation: moveLeftRight 1s linear infinite;
+}
+
+
+#Name {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.background2 {
+    width: 100%; 
+    font-size: 30px;
+    height: 735px;
+    box-sizing: border-box;
+    margin: -35px auto; 
+    animation: fadeBackgroundReverse 20s linear infinite; 
+    padding-top: 25px;
+    transform: translateY(-25px);
+}
+
+.pikachu-image {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: -140px;
+    transform: translate(35px);
+    transform: translateY(-30px);
+    pointer-events: none;
+}
+
+.pikachu-image img {
+    width: 750px;
+    height: 600px;
+    object-fit: cover; 
+    transform: rotate(-5deg);
+}
+
+.grass-image {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: -500px;
+    transform: translate(35px);
+    z-index: -1;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.grass-image img {
+    width: fit-content;
+    height: 600px;
+
+    object-fit: cover; 
+}
+
+.message-box {
+    width: 600px;
+    height: 50px;
+    align-items: center; 
+    justify-content: left; 
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #5C4033;
+}
+
+h1 {
+    font: sans-serif;
+    animation: fadeText 20s linear infinite;
+    font-weight: bold; 
+    margin: 10px 10px;
+    border: 10px 10px; 
+    text-align: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#About-Me p{
+    color: #333333;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;  
+}
+
+#Gaming p {
+    color: #333333;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;  
+}
+
+#Gaming ul {
+    color: #333333;
+    transform: translateX(30px);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;  
+}
+
+
+#Video {
+    border-radius: 50px;
+    transform: translateY(35px);
+}
+
+#Project{
+    color: #333333;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 38px; 
+    transform: translateY(-20px);
+    margin-bottom: -38px;
+}
+
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0); /* Start at the original position */
+      }
+    25% {
+        transform: translateX(400px); /* Move 200px to the right */
+      }
+    50% {
+        transform: translateX(0); /* Return to the original position */
+    }
+    75% {
+        transform: translateX(-400px); /* Return to the original position */
+    }
+    100% {
+        transform: translateX(0); /* Return to the original position */
+    }
+}
+
+@keyframes fadeText {
+    0% {
+        color:  #333333;
+    } 
+    50% {
+        color: #30332E;
+    }
+    100% {
+        color: #333333; 
+    }    
+}
+
+@keyframes fadeBackground {
+    0% {
+        background-color: #caefd7;
+    } 
+    25% {
+        background-color: #f5bfd7;
+    } 
+    50% {
+        background-color: #abc9e9;
+    } 
+    75% {
+        background-color: #f5bfd7;
+    }   
+    100% {
+        background-color: #caefd7;
+    }  
+} 
+
+@keyframes fadeBackgroundReverse {
+    0% {
+        background-color: #abc9e9;
+    } 
+    25% {
+        background-color: #f5bfd7;
+    } 
+    50% {
+        background-color: #caefd7;
+    } 
+    75% {
+        background-color: #f5bfd7;
+    }   
+    100% {
+        background-color: #abc9e9;
+    }  
+} 
