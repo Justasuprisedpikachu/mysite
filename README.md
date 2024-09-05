@@ -1,6 +1,6 @@
 # My Website
 
-Link: https://github.com/Justasuprisedpikachu/mysite
+Link: justasuprisedpikachu.github.io/mysite/
 
 
 🙏🙏🙏🙏🙏🙏🙏🙏
