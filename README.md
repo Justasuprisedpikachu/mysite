@@ -1,2 +1,6 @@
-# mysite
-My go at a personal website themed with discord/harmony
+# My Website
+
+Link: https://github.com/Justasuprisedpikachu/mysite
+
+
+🙏🙏🙏🙏🙏🙏🙏🙏
